@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>宮崎キャリア・デザインスクール</title>
+    <meta name="description" content="インタークロスは宮崎で働きたい人と、宮崎で人材を採用したい企業が集まるメディアです。宮崎の求人や企業の情報提供、就職・転職に関するイベントやニュースの発信、職業訓練校の運営を通じて、人と企業をつなげます。" />
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
+  <body class="access">
+      <header>
+        <div class="openbtn1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="gnav">
+          <div class="logo">
+            <a href="./index.html"><img src="./img/logo.png" alt="" /></a>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a class="link-anime" href="web-designer.html">Webデザイナー養成科</a></li>
+              <li><a class="link-anime" href="web-business.html">Webビジネス養成科</a></li>
+              <li><a class="link-anime" href="web-dtp.html">Web・DTPデザイナー養成科</a></li>
+              <li><a class="link-anime" href="access.html">アクセス</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="acc-1">
+        <h1>アクセス</h1>
+        <span>宮崎県宮崎市宮崎駅東3-7-1</span>
+      </div>
+
+      <div class="acc-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d846.6287392081736!2d131.4335839258888!3d31.919773716848447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3538b75a58d52a0f%3A0x68e5bfc849d9a2fb!2z5a6u5bSO44Kt44Oj44Oq44Ki44O744OH44K244Kk44Oz44K544Kv44O844Or!5e0!3m2!1sja!2sjp!4v1631100193073!5m2!1sja!2sjp" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <div class="acc-2">
+        <h2>宮崎駅より徒歩8分（650m）</h2>
+        <span>宮崎駅より 徒歩8分（650m）。JR日豊本線宮崎駅東口から、セブンイレブン宮崎駅東2丁目店の交差点を左折し600m直進、<br>のざきクリニック前の交差点を右折し直進約70m。黒い外観の建物です。
+
+        </span>
+      </div>
+
+      <div class="acc-3">
+        <h2>車でのアクセス</h2>
+        <span>宮崎駅より車で約3分。宮崎空港より車で約20分（一ツ葉有料道路を経由）<br>
+        宮崎北警察署よりイオンモール宮崎方面へ直進約400ｍ、フーデリー青葉店手前。
+        </span>
+      </div>
+
+      </main>
+
+      <footer>
+        <div class="link-wrapper">
+          <div>
+            <ul>
+              <li><a class="link-anime" href="web-designer.html">Webデザイナー科</a></li>
+              <li><a class="link-anime" href="web-business.html">Webビジネス科</a></li>
+              <li><a class="link-anime" href="web-dtp.html">Web・DTPデザイナー科</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <li><a class="link-anime" href="access.html">アクセス</a></li>
+              <li><a class="link-anime" href="contact.php">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="index.html">
+          <img src="./img/logo.png" alt="" />
+        </a>
+
+        <small>© Miyazaki Career Design School All Rights Reserved.</small>
+      </footer>
+      <script>
+        $(".openbtn1").click(function () {
+          $(this).toggleClass("active");
+          });
+
+          $(".openbtn1").click(function () {
+          if ($(".gnav").css("display") == "none") {
+          $(".gnav").fadeIn();
+          } else {
+          $(".gnav").fadeOut();
+          }
+        });
+      </script>
+  </body>
+</html>
